@@ -21,6 +21,22 @@ Bu proje, FastAPI kullanarak belirli bir ağ aralığında IP adreslerini taraya
    pip install fastapi uvicorn asyncssh python-nmap python-dotenv
    ```
 
+   Alternatif olarak, `requirements.txt` dosyasını oluşturabilirsiniz. Aşağıdaki içeriği `requirements.txt` dosyasına ekleyin:
+
+   ```plaintext
+   fastapi
+   uvicorn
+   asyncssh
+   python-nmap
+   python-dotenv
+   ```
+
+   Ardından, aşağıdaki komutla bağımlılıkları yükleyin:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 2. **.env Dosyasını Oluşturun**:
    Proje dizininde bir `.env` dosyası oluşturun ve SSH kullanıcı adı ve şifresini ekleyin:
 

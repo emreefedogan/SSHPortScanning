@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+asyncssh
+python-nmap
+python-dotenv
