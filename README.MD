@@ -23,7 +23,7 @@ Burada ssh bağlantı bilgisi elimizde olmadığından dolayı Metasploitable 2 
    pip install fastapi uvicorn asyncssh python-nmap python-dotenv
    ```
 
-   Alternatif olarak, `requirements.txt` dosyasını oluşturabilirsiniz. Aşağıdaki içeriği `requirements.txt` dosyasına ekleyin:
+   Alternatif olarak, `requirements.txt` dosyası ile de kütüphaneleri yükleyebilirsiniz.
 
    ```plaintext
    fastapi
