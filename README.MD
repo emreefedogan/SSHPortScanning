@@ -2,6 +2,8 @@
 
 Bu proje, FastAPI kullanarak belirli bir ağ aralığında IP adreslerini tarayan ve açık olan IP adreslerine eş zamanlı SSH bağlantısı açan bir uygulamadır. Uygulama, `nmap` kütüphanesini kullanarak ağ taraması yapar ve `asyncssh` kütüphanesi ile SSH bağlantıları kurar.
 
+Burada ssh bağlantı bilgisi elimizde olmadığından dolayı Metasploitable 2 zafiyetli makinesini VmWare üzerine kurarak deneme yapıldı. İlgili Subnetin tamamı taranarak bulunan ip adresleri içerisinde eş zamanlı olarak 22 (ssh) portuna bağlantı açan bir python scripti yazıldı.
+
 ## Gereksinimler
 
 - Python 3.7 veya üzeri
